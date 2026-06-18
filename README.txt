@@ -13,7 +13,7 @@ The goal of the application is to provide a secure and user-friendly platform fo
 A full demonstration of the application can be viewed below:
 
 **YouTube Demonstration Video:**
-[INSERT YOUTUBE VIDEO LINK HERE]
+https://youtu.be/jO24LfHMPiA 
 
 ---
 
