@@ -1,0 +1,3 @@
+admin@pastimes.co.za admin admin1234
+buyer@pastimes.co.za buyer buyer123
+seller@pastimes.co.za seller seller123

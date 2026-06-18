@@ -1,0 +1,47 @@
+PASTIMES TESTING WORKFLOW
+
+1. Start XAMPP Apache and MySQL.
+2. Copy the pastimes folder to C:\xampp\htdocs\pastimes.
+3. Visit http://localhost/pastimes/loadClothingStore.php.
+4. Confirm setup success and demo accounts.
+5. Open http://localhost/pastimes/index.php.
+
+DEMO ACCOUNTS
+Admin: admin / admin1234
+Buyer: buyer / buyer123
+Seller: seller / seller123
+
+BUYER TEST
+1. Register a buyer with exactly 8-character password.
+2. Try logging in before verification. Expected: blocked.
+3. Login as admin, verify buyer.
+4. Login as buyer.
+5. Browse shop, open product, message seller, add to cart.
+6. Update/remove cart item.
+7. Checkout and enter delivery details.
+8. Confirm order appears in admin dashboard.
+
+SELLER TEST
+1. Register a seller.
+2. Try login before seller approval. Expected: blocked.
+3. Admin approves seller.
+4. Seller logs in to seller dashboard.
+5. Upload product image, description, price, brand, category, size and condition.
+6. Confirm product status is pending.
+7. Admin approves product.
+8. Confirm buyer can see product in shop.
+
+MESSAGING TEST
+1. Buyer opens product and sends message.
+2. Seller opens messages tab.
+3. Seller replies.
+4. Buyer opens messages and sees reply.
+5. Confirm conversation is linked to product code.
+
+ADMIN TEST
+1. Verify buyers.
+2. Approve/reject sellers.
+3. Approve/reject products.
+4. Mark products sold.
+5. Add/update/delete non-admin users.
+6. View orders and delivery details.
